@@ -5,7 +5,8 @@ const bloodDonationData = [
       address: "1102 Angel Avenue, Hyderabad, Telangana, India",
       contactNo: "+91 9876543273",
       timing: "Mon-Sat 8-4",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 102,
@@ -13,7 +14,8 @@ const bloodDonationData = [
       address: "1103 City Road, Kolkata, West Bengal, India",
       contactNo: "+91 9876543274",
       timing: "Mon-Sun 24/7",
-      blood : ["A+","A-","B+","B-","O-"]
+      blood : ["A+","A-","B+","B-","O-"],
+      "avail" : false
     },
     {
       id: 103,
@@ -21,7 +23,8 @@ const bloodDonationData = [
       address: "1104 Sunshine Street, Pune, Maharashtra, India",
       contactNo: "+91 9876543275",
       timing: "Mon-Sat 8-6",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 104,
@@ -29,7 +32,8 @@ const bloodDonationData = [
       address: "1105 Unity Road, Bangalore, Karnataka, India",
       contactNo: "+91 9876543276",
       timing: "Mon-Fri 9-5",
-      blood : ["A+","A-","B+","B-","O+",]
+      blood : ["A+","A-","B+","B-","O+",],
+      "avail" : true
     },
     {
       id: 105,
@@ -37,7 +41,8 @@ const bloodDonationData = [
       address: "1106 Life Road, Delhi, India",
       contactNo: "+91 9876543277",
       timing: "Tue-Thurs 10-4",
-      blood : ["A+","B+","B-","O+","O-"]
+      blood : ["A+","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 106,
@@ -45,7 +50,8 @@ const bloodDonationData = [
       address: "1107 Eternal Avenue, Mumbai, Maharashtra, India",
       contactNo: "+91 9876543278",
       timing: "Mon-Sun 24/7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : false
     },
     {
       id: 107,
@@ -53,7 +59,8 @@ const bloodDonationData = [
       address: "1108 Samaritan Street, Chennai, Tamil Nadu, India",
       contactNo: "+91 9876543279",
       timing: "Mon-Sat 7-5",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 108,
@@ -61,7 +68,8 @@ const bloodDonationData = [
       address: "1109 Golden Gate Road, Jaipur, Rajasthan, India",
       contactNo: "+91 9876543280",
       timing: "Mon-Fri 8-4",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : false
     },
     {
       id: 109,
@@ -69,7 +77,8 @@ const bloodDonationData = [
       address: "1110 Hope Street, Lucknow, Uttar Pradesh, India",
       contactNo: "+91 9876543281",
       timing: "Tue-Sat 9-7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 110,
@@ -77,7 +86,8 @@ const bloodDonationData = [
       address: "1111 Angel's Grace Avenue, Ahmedabad, Gujarat, India",
       contactNo: "+91 9876543282",
       timing: "Mon-Sun 24/7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 111,
@@ -85,7 +95,8 @@ const bloodDonationData = [
       address: "1112 Sunrise Street, Bhubaneswar, Odisha, India",
       contactNo: "+91 9876543283",
       timing: "Mon-Sat 8-6",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : false
     },
     {
       id: 112,
@@ -93,7 +104,8 @@ const bloodDonationData = [
       address: "1113 Starlight Lane, Nagpur, Maharashtra, India",
       contactNo: "+91 9876543284",
       timing: "Mon-Fri 9-5",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 113,
@@ -101,7 +113,8 @@ const bloodDonationData = [
       address: "1114 Bright Future Road, Chandigarh, Punjab, India",
       contactNo: "+91 9876543285",
       timing: "Mon-Sun 24/7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 114,
@@ -109,7 +122,8 @@ const bloodDonationData = [
       address: "1115 Lifeline Street, Guwahati, Assam, India",
       contactNo: "+91 9876543286",
       timing: "Tue-Thurs 10-4",
-      blood : ["A+","A-","B+","B-","AB+","AB-"]
+      blood : ["A+","A-","B+","B-","AB+","AB-"],
+      "avail" : false
     },
     {
       id: 115,
@@ -117,7 +131,8 @@ const bloodDonationData = [
       address: "1116 Angel's Hope Road, Raipur, Chhattisgarh, India",
       contactNo: "+91 9876543287",
       timing: "Mon-Fri 8-4",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 116,
@@ -125,7 +140,8 @@ const bloodDonationData = [
       address: "1117 Evergreen Avenue, Gandhinagar, Gujarat, India",
       contactNo: "+91 9876543288",
       timing: "Mon-Sun 24/7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 117,
@@ -133,7 +149,8 @@ const bloodDonationData = [
       address: "1118 Divine Care Street, Kohima, Nagaland, India",
       contactNo: "+91 9876543289",
       timing: "Mon-Sat 9-7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 118,
@@ -141,7 +158,8 @@ const bloodDonationData = [
       address: "1119 Sunflower Road, Imphal, Manipur, India",
       contactNo: "+91 9876543290",
       timing: "Mon-Fri 8-6",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 119,
@@ -149,7 +167,8 @@ const bloodDonationData = [
       address: "1120 Golden Dawn Avenue, Agartala, Tripura, India",
       contactNo: "+91 9876543291",
       timing: "Mon-Sun 24/7",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     },
     {
       id: 120,
@@ -157,7 +176,8 @@ const bloodDonationData = [
       address: "1121 Trinity Lane, Shillong, Meghalaya, India",
       contactNo: "+91 9876543292",
       timing: "Tue-Thurs 9-5",
-      blood : ["A+","A-","B+","B-","O+","O-"]
+      blood : ["A+","A-","B+","B-","O+","O-"],
+      "avail" : true
     }
     // ,{
     //   id: 121,

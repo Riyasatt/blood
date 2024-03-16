@@ -95,7 +95,7 @@ const DonorPage = () => {
         
       </div>
     ))}
-    </div>x``
+    </div>x
   </div>
   )
 }

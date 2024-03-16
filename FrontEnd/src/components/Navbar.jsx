@@ -1,20 +1,21 @@
 import { useState } from "react";
-
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
-  const [toggle, setToggle] = useState(false);
+  const navigate = useNavigate();
+
+  const logout = () =>{
+    navigate('/')
+  }
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar border-b border-secondary/20">
       <div className="text-white">
         Blood Bridge
       </div>
       <div >
-      <button className="text-slate-800 border px-3 py-1 bg-white rounded-md font-semibold">
-        LogOut
+      <button onClick={logout} className="text-slate-800 border px-3 py-1 bg-white rounded-md font-semibold">
+        Logout
       </button>
       </div>
 
@@ -50,4 +51,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export  default Navbar;

@@ -1,18 +1,20 @@
 
 import { useState } from "react";
-import DonorPage from "./pages/DonorPage";
-import PatientPage from "./pages/PatientPage";
-import HospitalPage from "./pages/HospitalPage";
+import DashBoard from "./pages/DashBoard";
+// import Page from "./pages/Page";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import LandingPage from "./LandingPage";
 const App = () => {
 
-  const [userType, setUserType] = useState("donor")
   return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/dashboard" element={<DashBoard />} />
 
-  <div>
-    {userType === "donor" && <DonorPage />}
-    {userType === "patient" && <PatientPage />}
-    {userType === "hospital" && <HospitalPage />}
-  </div>
+      </Routes>
+    </Router>
+  
 )};
 
 export default App;
